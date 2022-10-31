@@ -1,0 +1,123 @@
+#menus {
+    text-align: center;
+}
+
+#hide {
+    margin-left: 20px;
+    border-radius: 7px;
+    width: 80px;
+}
+
+#table {
+    border: 1px solid lightgrey;
+    width: 80%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 30px;
+    margin-right: 70px;
+    left: 270px;
+    position: sticky;
+}
+
+#create {
+    border-radius: 5px;
+    font-size: 14px;
+    height: 40px;
+    width: 70px;
+    position: sticky;
+}
+
+#prev_next {
+    font-size: 30px;
+    font-weight: bold;
+    display: flex;
+    flex-direction: row;
+}
+
+#day {
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 26px;
+}
+
+@media screen and (max-width: 740px) {
+    #table {
+        width: 480px;
+        margin-left: -30px;
+    }
+
+    #hide {
+        margin-left: 5px;
+        font-size: 14px;
+        width: 30px;
+    }
+
+    #back {
+        margin-left: -40px;
+    }
+}
+
+@media screen and (max-width: 560px) {
+    #table {
+        margin-left: -70px;
+    }
+}
+
+/* ########################################## Day_Word ################################################*/
+
+.rowDone {
+    background-color: #a3a3a3;
+    color: #838383;
+}
+
+#del {
+    font-size: 14px;
+    height: 30px;
+    width: 70px;
+    margin-bottom: 12px;
+}
+
+.modal {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    position: fixed;
+    padding: 100px;
+    z-index: 999;
+}
+
+#WordDelete {
+    position: relative;
+    top: 100px;
+    padding: 30px 20px 47px 20px;
+    width: 270px;
+    height: 320px;
+}
+
+#hidden {
+    display: none;
+}
+
+
+/* ####################################### Day_DeleteWordModal #########################################*/
+
+
+.modal {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    position: fixed;
+    padding: 100px;
+    z-index: 999;
+}
+
+#WordDelete {
+    position: relative;
+    top: 100px;
+    padding: 30px 20px 47px 20px;
+    width: 270px;
+    height: 320px;
+}

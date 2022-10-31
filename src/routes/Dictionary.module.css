@@ -1,0 +1,41 @@
+#searchBtn {
+    border-radius: 5px;
+    font-size: 14px;
+    width: 70px;
+    height: 30px;
+    flex-wrap: nowrap;
+
+}
+
+#searchBar {
+    height: 30px;
+    width: 250px;
+    margin-right: 10px;
+    margin: 25px;
+    outline: none;
+}
+
+#searchIcon {
+    font-size: 20px;
+    padding: 2px;
+}
+
+#search {
+    text-align: center;
+}
+
+#wordAudio {
+    margin-bottom: 20px;
+}
+
+#vocaContainer {
+    width: 300px;
+    height: 400px;
+    overflow: auto;
+}
+
+#container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
