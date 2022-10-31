@@ -36,9 +36,13 @@ and put them into practice. and I will also create this in app when I learn Reac
 - Grammar Check (Grammarly API)
 
 # Sample pictures
+- Memorize
 ![Memorize](https://user-images.githubusercontent.com/106279616/199054212-1bd8130e-eea3-464c-a9c7-da1cda89983f.png)
+- Dictionary
 ![Dictionary](https://user-images.githubusercontent.com/106279616/199054242-e7c3554e-a9b0-4a60-b113-b24017c0c362.png)
+- Video
 ![Video](https://user-images.githubusercontent.com/106279616/199054266-3fd627b8-f399-47ab-9b14-1deb5df008f6.png)
+- Grammarly
 ![Grammarly](https://user-images.githubusercontent.com/106279616/199054283-a6dfca30-ce8d-4cd6-babc-0eed9f2385ee.png)
 
 # Sample videos
