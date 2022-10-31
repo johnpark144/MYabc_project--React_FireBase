@@ -16,7 +16,7 @@ export default function AddDayModal({ userObj, setAddDayMode, days }) {
         setAddDayMode(false)
         await addDoc(collection(dbService, "days"), dayObj); // Add document in days collection at dbService(Firestore)
     }
-
+    
     return <>
         <div className={styles.modal}>
             <div id={styles.modalContents}
