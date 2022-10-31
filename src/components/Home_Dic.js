@@ -42,7 +42,7 @@ export default function Dic({ scrollYValue, buttonJump }) {
                     </div>
                     <h2>Search any words!</h2>
                     <h2>You can see its IPA, listen to the pronunciation,</h2>
-                    <h2>and cheack all the meaning of the words.</h2>
+                    <h2>and check all the meaning of the words.</h2>
                 </div>
                 {/* Projector Screen, Owl, BeamProjector Machine, FlashLight */}
                 <img className={styles.screenImg} src="https://firebasestorage.googleapis.com/v0/b/myabc-97f03.appspot.com/o/projector.png?alt=media&token=b331e9d7-3daa-4f9d-9641-7ba2cd79e8ac" />
