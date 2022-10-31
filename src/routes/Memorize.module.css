@@ -25,6 +25,7 @@
     font-size: 14px;
     height: 40px;
     width: 85px;
+    min-width: 45px;
 }
 
 #addBtn {
