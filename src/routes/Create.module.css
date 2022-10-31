@@ -6,6 +6,7 @@
     border-radius: 30px;
 }
 
+
 /* When it goes onto top of the video */
 @media screen and (max-width: 940px) {
     #allForm {
