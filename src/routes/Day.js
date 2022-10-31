@@ -36,7 +36,6 @@ export default function Day({ userObj, btnClass }) {
     function togleHideEng() {
         setTogleEng(!togleEng)
     }
-
     
     return (
         <div id='contents'>
