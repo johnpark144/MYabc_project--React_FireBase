@@ -35,7 +35,7 @@
     display: flex;
 }
 
-/* ########################################## Home_Mem #############################################*/
+/* ############################################# Home_Mem ################################################*/
 
 .memorizeContents {
     background-image: url("https://firebasestorage.googleapis.com/v0/b/myabc-97f03.appspot.com/o/background_memorize.jpg?alt=media&token=764ef9ce-6ea7-433e-9cb5-03a802d1f776");
@@ -102,7 +102,7 @@
     }
 }
 
-/* ########################################## Home_Dic #############################################*/
+/* ############################################# Home_Dic ################################################*/
 
 .dictionaryContents {
     background: url("https://firebasestorage.googleapis.com/v0/b/myabc-97f03.appspot.com/o/background_dictonary.jpg?alt=media&token=ec46f6ac-4c96-4fbd-8ad4-8dd00afd47fe") fixed;
@@ -302,7 +302,7 @@
     }
 }
 
-/* ########################################## Home_Vid  #############################################*/
+/* ############################################# Home_Vid  ################################################*/
 
 .videoContents {
     background: url("https://firebasestorage.googleapis.com/v0/b/myabc-97f03.appspot.com/o/background_video.jpg?alt=media&token=4eaf951c-d9be-4a07-9576-638fc396275d");
@@ -413,7 +413,7 @@
     width: 75%;
 }
 
-/* ########################################## Home_Gram #############################################*/
+/* ############################################# Home_Gram ################################################*/
 
 .grammarlyContents {
     background: url("https://firebasestorage.googleapis.com/v0/b/myabc-97f03.appspot.com/o/background_grammarly.jpg?alt=media&token=e1909aa6-9016-4eab-a411-3ddad68e3bb0");
