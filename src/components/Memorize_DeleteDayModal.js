@@ -35,6 +35,7 @@ export default function DeleteDayModal({ userObj, setDeleteDayMode }) {
         setDeleteDayMode(false)
         await deleteDoc(delDayRef); // Delete the last day
     }
+    
     return <>
         <div className={styles.modal}>
             <div id={styles.modalContents}
