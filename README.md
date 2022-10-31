@@ -49,17 +49,17 @@ and put them into practice. and I will also create this in app when I learn Reac
 
 
 # Sample videos
-1. Home(animation):
+<h3> 1. Home(animation):</h3>
 <video src="https://user-images.githubusercontent.com/106279616/199087744-cd8b906d-ba6b-428e-8883-91c2e21b4265.mp4" data-canonical-src="https://user-images.githubusercontent.com/106279616/199087744-cd8b906d-ba6b-428e-8883-91c2e21b4265.mp4" controls="controls" muted="muted" class="d-block rounded-bottom-2 border-top width-fit" style="max-height:640px;"/>
 2. Memorize(Add and Remove Days, Add and Remove Words):
-
+<video src="https://user-images.githubusercontent.com/106279616/199088027-eb52e16f-ce96-494d-88b2-f9147a9da9ca.mp4" data-canonical-src="https://user-images.githubusercontent.com/106279616/199088027-eb52e16f-ce96-494d-88b2-f9147a9da9ca.mp4" controls="controls" muted="muted" class="d-block rounded-bottom-2 border-top width-fit" style="max-height:640px;"/>
 3. Memorize(Hide and Show Words, Gray row, Move link day to day):
-
+<video src="https://user-images.githubusercontent.com/106279616/199088111-e918ee2c-9519-4da1-9b67-410800fd6096.mp4" data-canonical-src="https://user-images.githubusercontent.com/106279616/199088111-e918ee2c-9519-4da1-9b67-410800fd6096.mp4" controls="controls" muted="muted" class="d-block rounded-bottom-2 border-top width-fit" style="max-height:640px;"/>
 4. Dictionary, Video:
-
+<video src="https://user-images.githubusercontent.com/106279616/199088254-461b05ad-fa3b-4fca-b823-797412cdb5c0.mp4" data-canonical-src="https://user-images.githubusercontent.com/106279616/199088254-461b05ad-fa3b-4fca-b823-797412cdb5c0.mp4" controls="controls" muted="muted" class="d-block rounded-bottom-2 border-top width-fit" style="max-height:640px;"/>
 5. Grammarly, 404_Notfound:
-
+<video src="https://user-images.githubusercontent.com/106279616/199088297-e9049d25-520a-46d0-a640-0248ff0ca84f.mp4" data-canonical-src="https://user-images.githubusercontent.com/106279616/199088297-e9049d25-520a-46d0-a640-0248ff0ca84f.mp4" controls="controls" muted="muted" class="d-block rounded-bottom-2 border-top width-fit" style="max-height:640px;"/>
 6. Login, Logout, login with google,github,facebook:
-
+<video src="https://user-images.githubusercontent.com/106279616/199088453-87a07fe3-7c62-4490-b6f6-faa98385ad9c.mp4" data-canonical-src="https://user-images.githubusercontent.com/106279616/199088453-87a07fe3-7c62-4490-b6f6-faa98385ad9c.mp4" controls="controls" muted="muted" class="d-block rounded-bottom-2 border-top width-fit" style="max-height:640px;"/>
 7. Responsive Website:
-
+<video src="https://user-images.githubusercontent.com/106279616/199088711-705eb95a-1dd4-48f5-8047-a7056816f86d.mp4" data-canonical-src="https://user-images.githubusercontent.com/106279616/199088711-705eb95a-1dd4-48f5-8047-a7056816f86d.mp4" controls="controls" muted="muted" class="d-block rounded-bottom-2 border-top width-fit" style="max-height:640px;"/>
