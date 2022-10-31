@@ -49,3 +49,17 @@ and put them into practice. and I will also create this in app when I learn Reac
 
 
 # Sample videos
+1. Home(animation):
+<video src="https://user-images.githubusercontent.com/106279616/199087744-cd8b906d-ba6b-428e-8883-91c2e21b4265.mp4" data-canonical-src="https://user-images.githubusercontent.com/106279616/199087744-cd8b906d-ba6b-428e-8883-91c2e21b4265.mp4" controls="controls" muted="muted" class="d-block rounded-bottom-2 border-top width-fit" style="max-height:640px;"/>
+2. Memorize(Add and Remove Days, Add and Remove Words):
+
+3. Memorize(Hide and Show Words, Gray row, Move link day to day):
+
+4. Dictionary, Video:
+
+5. Grammarly, 404_Notfound:
+
+6. Login, Logout, login with google,github,facebook:
+
+7. Responsive Website:
+
