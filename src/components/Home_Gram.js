@@ -17,7 +17,7 @@ export default function Gram({ scrollYValue, buttonJump }) {
                             </button>
                         </Link>
                     </div>
-                    <h2>Cheack your grammar</h2>
+                    <h2>Check your grammar</h2>
                     <h2>by writing down some sentence!</h2>
                 </div>
                 {/* 2nd Box : Explanation */}
