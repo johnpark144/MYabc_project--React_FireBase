@@ -30,7 +30,6 @@ export default function Create({ userObj, showCreate }) {
     }
     }, [dayArr, wordsIdArr])
 
-
     // onSubmit to create words
     const onSubmit = async (e) => {
         e.preventDefault();
