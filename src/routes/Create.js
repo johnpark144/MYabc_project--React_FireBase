@@ -61,7 +61,7 @@ export default function Create({ userObj, showCreate }) {
             }
         }
         else {
-            alert('please cheack the forms')
+            alert('please check the forms')
             return
         }
     }
