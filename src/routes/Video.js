@@ -30,7 +30,6 @@ export default function Video({ userObj, btnClass }) {
                             data-bkg-color="theme_light" rel="nofollow" href="https://youglish.com">
                             Visit YouGlish.com</a>
                     </div>
-
                     {showCreate ? (
                         <div id={styles.create}>
                             <Create userObj={userObj} showCreate={showCreate} />
