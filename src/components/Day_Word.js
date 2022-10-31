@@ -19,11 +19,11 @@ export default function Word({ word, togleKor, togleEng }) {
         isdoneRef_creator(); // Made a function seperately to put async, await
     }, [])
 
-    // Whenever onChange of IsDone-Cheackbox happen, update the 'isDone'
+    // Whenever onChange of IsDone-Checkbox happen, update the 'isDone'
     const togleIsdone = async (e) => {
         e.preventDefault();
 
-        setIsDone(!isDone); // Output Cheackbox in display
+        setIsDone(!isDone); // Output Checkbox in display
         await updateDoc(isdoneRef, { // Update of DB
             isDone: !isDone,
         });
