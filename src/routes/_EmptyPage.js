@@ -11,7 +11,8 @@ export default function EmptyPage({ btnClass }) {
                     <div className={btnClass} style={{
                         borderRadius: "20px",
                         fontSize: '50px',
-                        width: "160px"
+                        width: "180px",
+                        textAlign: 'center'
                     }}>
                         Return
                     </div>
