@@ -4,7 +4,15 @@
 - Main Tools : React
 - Sub Tools : Html, CSS(Tailwind CSS), Dictionary API, Youglish API, Grammarly API, FireBase
 - Explantion :
-This is Facebook clone page that I built by refering to orginal Facebook site.
+This is English study website named 'MYabc' that I built to use usefully for those who need it including myself.
+- Reason of creation :
+When I came to states for the first time, I found it hard to do everything due to language barrier.
+I remember how my English get improved going through many trials and errors, that is studying context of frequent word and sentences,
+and also checking meaning of words in English was helpfull a lot to feel the true meaning,
+that's why I used to use Eng/Eng Dictionary and Youglish site in bookmark in actuality.
+retrospecting that time, I came to think that would be good to develop the website or application for English study based on my experience.
+and put them into practice. and I will also create this in app when I learn React Native later on.
+
 - Date of creation : Oct 10th ~ Oct 27th 2022
 - Date of debugging : Oct 27th ~ Oct 30th 2022 (clean code, fix error, custom hook, comment)
 - Date of upload : Oct 31th 2022
