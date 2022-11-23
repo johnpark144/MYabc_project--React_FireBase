@@ -1,5 +1,5 @@
 # MYabc_project--React_fireBase
-- Link : https://transcendent-piroshki-29d059.netlify.app/
+- Website Link : https://transcendent-piroshki-29d059.netlify.app/
 - Backend (firebase for me) : https://console.firebase.google.com/project/myabc-97f03/overview?hl=ko
 
 - Creater : Yeonghwan Park (John Park)
