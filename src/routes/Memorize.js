@@ -7,7 +7,7 @@ import LoadingBox from "../components/Memorize_LoadingBox";
 import useCallData from "../hooks/useCallData";
 
 export default function Memorize({ userObj, btnClass }) {
-    const [days, setDays] = useState(false);
+    const [days, setDays] = useState([0]);
     const [addDayMode, setAddDayMode] = useState(false);
     const [deleteDayMode, setDeleteDayMode] = useState(false);
 
@@ -30,7 +30,7 @@ export default function Memorize({ userObj, btnClass }) {
     }, [dayArr])
 
     // Loading
-    if (days === false || days.length === 0) {
+    if (days[0] === 0) {
         return <LoadingBox />
     }
 
