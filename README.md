@@ -18,6 +18,7 @@ and put them into practice. and I will also create this in app when I learn Reac
 - Date of creation : Oct 10th ~ Oct 27th 2022
 - Date of debugging : Oct 27th ~ Oct 30th 2022 (clean code, fix error, custom hook, comment)
 - Date of upload : Oct 31th 2022
+- Date of deployment : Nov 22th 2022
 
 # Functions
 - Responsive Website
