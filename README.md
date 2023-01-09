@@ -14,6 +14,7 @@ and also checking meaning of words in English was helpfull a lot to feel the tru
 that's why I used to use Eng/Eng Dictionary and Youglish site in bookmark in actuality.
 retrospecting that time, I came to think that would be good to develop the website or application for English study based on my experience.
 and put them into practice. and I will also create this in app when I learn React Native later on.
+- Comment language : English
 
 - Date of creation : Oct 10th ~ Oct 27th 2022
 - Date of debugging : Oct 27th ~ Oct 30th 2022 (clean code, fix error, custom hook, comment)
