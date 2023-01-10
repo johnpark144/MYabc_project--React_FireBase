@@ -20,6 +20,7 @@ and put them into practice. and I will also create this in app when I learn Reac
 - Date of debugging : Oct 27th ~ Oct 30th 2022 (clean code, fix error, custom hook, comment)
 - Date of upload : Oct 31th 2022
 - Date of deployment : Nov 22th 2022
+- Deployment Tool : Netlify
 
 # Functions
 - Responsive Website
