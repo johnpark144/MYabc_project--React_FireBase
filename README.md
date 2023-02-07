@@ -4,7 +4,8 @@
 
 - Creater : Yeonghwan Park (John Park)
 - Main Tools : React
-- Sub Tools : Html, CSS(Tailwind CSS), Dictionary API, Youglish API, Grammarly API, FireBase
+- CSS : Tailwind Css(for practice), Css Modules
+- Sub Tools : Html, Dictionary API, Youglish API, Grammarly API, FireBase
 - Explantion :
 This is English study website named 'MYabc' that I built to use usefully for those who need it including myself.
 - Reason of creation :
