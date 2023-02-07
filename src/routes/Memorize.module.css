@@ -1,0 +1,94 @@
+#day {
+    width: 120px;
+    height: 50px;
+    text-align: center;
+    padding: 12px;
+    margin: 30px 0px 0px 50px;
+    color: white;
+}
+
+#create {
+    margin: 20px 20px 0px 20px;
+    border-radius: 5px;
+    font-size: 14px;
+    height: 40px;
+    width: 85px;
+}
+
+#addBtn {
+    display: flex;
+    flex-direction: row;
+    margin: 0 0 30px 8%;
+}
+
+#loading {
+    position: relative;
+    color: rgb(0, 0, 0);
+    left: 150px;
+    top: 20px;
+}
+
+#loadingBtns {
+    border-radius: 5px;
+    height: 50px;
+    width: 40px;
+}
+
+@media screen and (max-width: 700px) {
+    #day {
+        width: 80px;
+        margin: 30px 0px 0px 10px;
+    }
+
+    #create {
+        margin: 20px 5px 0px 5px;
+        font-size: 12px;
+    }
+
+    #addBtn {
+        margin-left: 0px;
+    }
+
+    #loading {
+        top: 18px;
+        left: 17px;
+    }
+}
+
+/* ########################### Memorize_AddDayModal, Memorize_DeleteDayModal ###########################*/
+.modal {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    position: fixed;
+    padding: 100px;
+    z-index: 999;
+}
+
+#modalContents {
+    position: relative;
+    top: 100px;
+    padding: 30px 20px 47px 20px;
+    width: 370px;
+    height: 280px;
+}
+
+#icon {
+    font-size: 60px;
+    color: #4338ca;
+}
+
+@media screen and (max-width: 700px) {
+    #modalContents {
+        top: 100px;
+        padding: 30px 20px 47px 20px;
+        width: 240px;
+        height: 270px;
+    }
+
+    #icon {
+        font-size: 40px;
+    }
+}

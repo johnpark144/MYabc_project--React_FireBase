@@ -1,0 +1,38 @@
+/* for CSS tailwind framework */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Common Styles */
+#contents {
+    width: 100%;
+    padding: 100px;
+}
+
+#homeContents {
+    width: 100%;
+    padding: 100px;
+}
+
+h1 {
+    font-size: 60px;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+@media screen and (max-width: 768px) {
+    h1 {
+        font-size: 40px;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+
+    #contents {
+        width: 100%;
+        padding: 100px 20px 100px 20px;
+    }
+}
