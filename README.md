@@ -16,19 +16,25 @@ and also checking meaning of words in English was helpfull a lot to feel the tru
 that's why I used to use Eng/Eng Dictionary and Youglish site in bookmark in actuality.
 retrospecting that time, I came to think that would be good to develop the website or application for English study based on my experience.
 and put them into practice. and I will also create this in app when I learn React Native later on.
+- Hard Part and Solution :
+1. because of limit to call API a day, I used to fail to test after some time to test. so I've learn how to test effeciently
+2. implementing Modal to do "delete or cancel", whenever I click "delete", sadly only last data had been deleted.. but I found solution that I put the Modal-making-component inside of the map-function that spread array. so now that I click to set the Modal, the Modal of that data to delete comes out.
+- Things To Fix : need to get this clean code, better English-comment's grammer, Implent more function for better way of Engish study,
+- Login Must ? : Yes (Sign-up or Oauth) 
+- Name why : "ABC" is begining of Alphabet but that sometimes indicate begining of English study so I named it MYabc
+
 - Comment language : English
 
 - Date of creation : Oct 10th ~ Oct 27th 2022
 - Date of debugging : Oct 27th ~ Oct 30th 2022 (clean code, fix error, custom hook, comment)
 - Date of 1st upload : Oct 31th 2022
-
 - Date of deployment : Nov 22th 2022
 - Deployment Tool : Netlify
 
 # Functions
 - Responsive Website
 - Login, Logout, Signup
-- Login with Google, GitHub, FaceBook
+- Login with Google, GitHub, FaceBook (Oauth)
 - Navigation bar and Modal(Small Navigation bar)
 - 404 Notfound link
 - Animation, Transition and Design in Home
