@@ -5,7 +5,7 @@
 - Creater : Yeonghwan Park (John Park)
 - Main Tools : React
 - CSS : Tailwind Css(for practice), Css Modules
-- Sub Tools : Html, Dictionary API, Youglish API, Grammarly API, FireBase
+- Sub Tools : Html, Dictionary API, Youglish API, Grammarly API, FireBase, PhotoShop
 - Idea or Not : Idea 85%, Clone 15% (refer to Vocabulary part)
 - Bundler : Webpack
 - Explantion :
