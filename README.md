@@ -6,7 +6,7 @@
 - Main Tools : React
 - CSS : Tailwind Css(for practice), Css Modules
 - Sub Tools : Html, Dictionary API, Youglish API, Grammarly API, FireBase
-- Idea or Not : Idea 90%, Clone 10% (refer to Vocabulary part)
+- Idea or Not : Idea 85%, Clone 15% (refer to Vocabulary part)
 - Bundler : Webpack
 - Explantion :
 This is English study website named 'MYabc' that I built to use usefully for those who need it including myself.
