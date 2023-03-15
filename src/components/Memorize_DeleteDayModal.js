@@ -37,7 +37,7 @@ export default function DeleteDayModal({ userObj, setDeleteDayMode }) {
       setDelDayRef(doc(dbService, "days", docsId)); // Document with the Id in days collection
     }
     DelDayRef_creator();
-  }, []);
+  }, [userObj.uid]);
 
   const cancel = () => {
     setDeleteDayMode(false);

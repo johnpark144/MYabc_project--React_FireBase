@@ -78,6 +78,7 @@ export default function Vid({ buttonJump }) {
               />
             </video>
             <img
+              alt="playOrPause"
               className={styles.button}
               src={
                 videoPause

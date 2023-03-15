@@ -23,12 +23,12 @@ export default function Create({ userObj, showCreate }) {
       // 1.
       setDays(dayArr.filter((day) => day.creatorId === userObj.uid));
       // 2.
-      wordsIdArr = wordsIdArr.map((doc) => {
+      let allWordsIds = wordsIdArr.map((doc) => {
         return Number(doc.id);
       });
-      setWordsMaxId(Math.max(...wordsIdArr));
+      setWordsMaxId(Math.max(...allWordsIds));
     }
-  }, [dayArr, wordsIdArr]);
+  }, [dayArr, wordsIdArr, userObj.uid]);
 
   // onSubmit to create words
   const onSubmit = async (e) => {

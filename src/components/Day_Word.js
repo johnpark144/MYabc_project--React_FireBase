@@ -27,7 +27,7 @@ export default function Word({ word, togleKor, togleEng }) {
       setIsDoneRef(doc(dbService, "words", docsId)); // document with the Id that in words collection
     }
     isdoneRef_creator(); // Made a function seperately to put async, await
-  }, []);
+  }, [word.id]);
 
   // Whenever onChange of IsDone-Checkbox happen, update the 'isDone'
   const togleIsdone = async (e) => {

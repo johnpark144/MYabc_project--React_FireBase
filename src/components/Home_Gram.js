@@ -51,6 +51,7 @@ export default function Gram({ scrollYValue, buttonJump }) {
             }
           >
             <img
+              alt="grammer_Ex"
               style={{ width: "320px", height: "195px", borderRadius: "10px" }}
               src="https://user-images.githubusercontent.com/106279616/217297935-5429f47a-cb82-4676-b6d0-99f9e7240a5f.jpg"
             />

@@ -34,18 +34,13 @@ export default function Auth() {
   // onSubmit to create account or to log in
   const onSubmit = async (e) => {
     e.preventDefault();
-    let data;
     try {
       if (newAccount) {
         // Create-account mode
-        data = await createUserWithEmailAndPassword(
-          authService,
-          email,
-          password
-        );
+        await createUserWithEmailAndPassword(authService, email, password);
       } else {
         // Login mode
-        data = await signInWithEmailAndPassword(authService, email, password);
+        await signInWithEmailAndPassword(authService, email, password);
       }
     } catch (error) {
       setError(error.message);
@@ -66,7 +61,7 @@ export default function Auth() {
       } else if (name === "facebook") {
         provider = new FacebookAuthProvider();
       }
-      const data = await signInWithPopup(authService, provider);
+      await signInWithPopup(authService, provider);
     } catch (error) {
       setError(error.message);
     }

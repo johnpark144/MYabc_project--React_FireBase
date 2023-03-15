@@ -25,10 +25,8 @@ export default function Dic({ scrollYValue, buttonJump }) {
   const imgSize = useRef(images.current.length); // Total number of slide
   const moveSlide = (i) => {
     let nextIndex = current + i; // 1 = Next, -1 = Previous
-    if (nextIndex < 0)
-      nextIndex =
-        imgSize.current -
-        1; // If the moved slide become smaller than first one, Go to last
+    if (nextIndex < 0) nextIndex = imgSize.current - 1;
+    // If the moved slide become smaller than first one, Go to last
     else if (nextIndex >= imgSize.current) nextIndex = 0; // If the moved slide become grearer than last one, Go to first
     setCurrent(nextIndex);
   };
@@ -65,18 +63,22 @@ export default function Dic({ scrollYValue, buttonJump }) {
           </div>
           {/* Projector Screen, Owl, BeamProjector Machine, FlashLight */}
           <img
+            alt="Projector Screen"
             className={styles.screenImg}
             src="https://user-images.githubusercontent.com/106279616/217297409-91e2b44e-61c3-459c-81ee-58e8a19f08a4.png"
           />
           <img
+            alt="Owl"
             className={styles.owlImg}
             src="https://user-images.githubusercontent.com/106279616/217297151-fa07635c-dd00-4607-99ff-2763aefdf6cc.png"
           />
           <img
+            alt="Beam Projector Machine"
             className={styles.beamProjectorImg}
             src="https://user-images.githubusercontent.com/106279616/217298683-1f063b29-c15b-486a-8870-3420209ff79f.png"
           />
           <img
+            alt="FlashLight"
             className={
               scrollYValue >= 1450 && scrollYValue <= 2090
                 ? styles.flashlightImgDisplay
