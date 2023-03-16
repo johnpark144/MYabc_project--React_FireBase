@@ -32,7 +32,11 @@ export default function Dictionary({ btnClass }) {
   function Audio() {
     return (
       <audio controls>
-        <source src={wordInfo.phonetics[0].audio} type="audio/mpeg" />
+        <source
+          data-testid="eng_audio"
+          src={wordInfo.phonetics[0].audio}
+          type="audio/mpeg"
+        />
       </audio>
     );
   }

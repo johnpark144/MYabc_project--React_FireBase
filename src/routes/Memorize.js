@@ -27,13 +27,12 @@ export default function Memorize({ userObj, btnClass }) {
     if (dayArr) {
       setDays(dayArr.filter((day) => day.creatorId === userObj.uid));
     }
-  }, [dayArr]);
+  }, [dayArr, userObj.uid]);
 
   // Loading
-  if (days === false || days.length === 0) {
+  if (days === false) {
     return <LoadingBox />;
   }
-
   return (
     <div id="contents">
       <div id={styles.addBtn}>

@@ -66,7 +66,6 @@ export default function Vid({ buttonJump }) {
           <div className={styles.videoAndButton} onClick={playOrPause}>
             <video
               id="video"
-              data-testid="video"
               className={styles.videoVid}
               style={
                 !videoPause ? { filter: " blur(20px)" } : { filter: " blur(0)" }
