@@ -5,7 +5,7 @@ import App from "./../App";
 import Auth from "./../routes/Auth";
 
 const user = userEvent.setup();
-describe.skip("Auth Test", () => {
+describe("Auth Test", () => {
   test("Regular Login and logout test", async () => {
     render(<App />);
     // Sign in

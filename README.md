@@ -24,7 +24,8 @@
 1. because of limit to call API a day, I used to fail to test after some time to test. so I've learn how to test effeciently
 2. implementing Modal to do "delete or cancel", whenever I click "delete", sadly only last data had been deleted.. but I found solution that I put the Modal-making-component inside of the map-function that spread array. so now that I click to set the Modal, the Modal of that data to delete comes out.
 
-- Things To Fix or Improve : need to get this clean code, better English-comment's grammer, Implement more function for better way of Engish study,
+- Things To Fix or Improve : need to get this clean code, better English-comment's grammer, Implement more function for better way of Engish study, Test code for firebase and react-router-dom
+
 - Login Must ? : Yes (Sign-up or Oauth)
 - Name why : "ABC" is begining of Alphabet but that sometimes indicate begining of English study so I named it MYabc
 

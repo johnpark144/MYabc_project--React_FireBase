@@ -4,7 +4,7 @@ import "@testing-library/jest-dom";
 import App from "./../App";
 import { loginFunction } from "./auto/login";
 
-test.skip("Home -- Go Button to navigate", async () => {
+test("Home -- Go Button to navigate", async () => {
   const user = userEvent.setup();
   render(<App />);
   // Login to access home
