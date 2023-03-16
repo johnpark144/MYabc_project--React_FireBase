@@ -51,12 +51,30 @@ function App() {
           {isLoggedIn ? ( // Routes while logged in
             <>
               <Route exact path="/" element={<Home userObj={userObj} />} />
-              <Route path="/memorize" element={<Memorize userObj={userObj} btnClass={btnClass} />}/>
-              <Route path="/memorize/create" element={<Create userObj={userObj} />}/>
-              <Route path="/memorize/:day" element={<Day userObj={userObj} btnClass={btnClass} />}/>
-              <Route path="/dictionary" element={<Dictionary userObj={userObj} btnClass={btnClass} />}/>
-              <Route path="/video" element={<Video userObj={userObj} btnClass={btnClass} />}/>
-              <Route path="/grammarlyapp" element={<GrammarlyApp userObj={userObj} />}/>
+              <Route
+                path="/memorize"
+                element={<Memorize userObj={userObj} btnClass={btnClass} />}
+              />
+              <Route
+                path="/memorize/create"
+                element={<Create userObj={userObj} />}
+              />
+              <Route
+                path="/memorize/:day"
+                element={<Day userObj={userObj} btnClass={btnClass} />}
+              />
+              <Route
+                path="/dictionary"
+                element={<Dictionary userObj={userObj} btnClass={btnClass} />}
+              />
+              <Route
+                path="/video"
+                element={<Video userObj={userObj} btnClass={btnClass} />}
+              />
+              <Route
+                path="/grammarlyapp"
+                element={<GrammarlyApp userObj={userObj} />}
+              />
 
               {/* 404, unmatched with any routes (always very bottom)*/}
               <Route path="*" element={<EmptyPage btnClass={btnClass} />} />

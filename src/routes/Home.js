@@ -34,7 +34,7 @@ export default function Home({ userObj }) {
       <div id={styles.contents} className="flex flex-row">
         <div className="font-mono text-lg ">
           <div className="font-serif text-4xl mt-12 sm:text-6xl">
-            Hey {userObj.displayName} !
+            Hey {userObj?.displayName} !
           </div>
           <div className="font-serif text-4xl sm:text-6xl">
             ARE YOU READY TO ENJOY ENGLISH?{" "}

@@ -27,9 +27,11 @@ export default function Vid({ buttonJump }) {
     if (videoPause) {
       vid.pause();
       setIsRunning(false);
+      console.log(vid);
     } else {
       vid.play();
       setIsRunning(true);
+      console.log(vid);
     }
     setVideoPause(!videoPause);
   };
@@ -41,7 +43,7 @@ export default function Vid({ buttonJump }) {
           {/* Title Video, Explanation */}
           <div className={videoPause ? styles.videoNone : styles.videoDisplay}>
             <div className={styles.titleAndBtn}>
-              <h1>Video</h1>
+              <h1>VIDEO</h1>
               <Link to="/video">
                 <button
                   className={`${styles.create} bg-gradient-to-r from-sky-500
@@ -64,6 +66,7 @@ export default function Vid({ buttonJump }) {
           <div className={styles.videoAndButton} onClick={playOrPause}>
             <video
               id="video"
+              data-testid="video"
               className={styles.videoVid}
               style={
                 !videoPause ? { filter: " blur(20px)" } : { filter: " blur(0)" }

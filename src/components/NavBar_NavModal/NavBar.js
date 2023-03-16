@@ -53,22 +53,22 @@ export default function NavBar({ setNavModal, userObj }) {
         <div className={styles.menus}>
           <Link to="/memorize" className={styles.menu}>
             <span className="material-icons-outlined">psychology</span>
-            <span>Memorize </span>
+            <span role="link">Memorize </span>
           </Link>
           <span>|&nbsp;</span>
           <Link to="/dictionary" className={styles.menu}>
             <span className="material-icons-outlined">menu_book</span>
-            <span>Dictionary</span>
+            <span role="link">Dictionary</span>
           </Link>
           <span>|&nbsp;</span>
           <Link to="/video" className={styles.menu}>
             <span className="material-icons-outlined">ondemand_video</span>
-            <span>Video</span>
+            <span role="link">Video</span>
           </Link>
           <span>|&nbsp;</span>
           <Link to="/grammarlyapp" className={styles.menu}>
             <span className="material-icons-outlined">sticky_note_2</span>
-            <span>Grammarly</span>
+            <span role="link">Grammarly</span>
           </Link>
           {/* UserName, Logout button */}
           <div id={styles.nameLogout}>

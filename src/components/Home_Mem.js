@@ -47,6 +47,7 @@ export default function Mem({ scrollYValue, buttonJump }) {
             />
           </video>
           <img
+            alt="computer"
             className={styles.computerImg}
             src="https://user-images.githubusercontent.com/106279616/217298597-68295156-5beb-484a-912d-5c90432f32c9.png"
           />

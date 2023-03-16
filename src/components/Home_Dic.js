@@ -44,7 +44,7 @@ export default function Dic({ scrollYValue, buttonJump }) {
             }
           >
             <div className={styles.titleAndBtn}>
-              <h1>Dictionary</h1>
+              <h1>DICTIONARY</h1>
               <Link to="/dictionary">
                 <button
                   className={`${

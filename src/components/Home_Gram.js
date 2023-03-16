@@ -15,7 +15,7 @@ export default function Gram({ scrollYValue, buttonJump }) {
             }
           >
             <div className={styles.titleAndBtn}>
-              <h1>Grammarly</h1>
+              <h1>GRAMMARLY</h1>
               <Link to="/grammarlyapp">
                 <button
                   className={`${styles.create} bg-gradient-to-r from-green-800 

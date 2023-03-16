@@ -5,8 +5,10 @@
   "dependencies": {
     "@grammarly/editor-sdk-react": "^2.3.8",
     "@testing-library/jest-dom": "^5.16.5",
-    "@testing-library/react": "^13.4.0",
-    "@testing-library/user-event": "^13.5.0",
+    "@testing-library/react": "^14.0.0",
+    "@testing-library/user-event": "^14.4.3",
+    "eslint-plugin-jest-dom": "^4.0.3",
+    "eslint-plugin-testing-library": "^5.10.2",
     "firebase": "^9.17.1",
     "package.json": "^2.0.1",
     "react": "^18.2.0",
