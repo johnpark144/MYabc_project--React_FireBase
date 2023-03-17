@@ -6,7 +6,7 @@
 - Creater : Yeonghwan Park (John Park)
 - Main Tools : React
 - CSS : Tailwind Css(for practice), Css Modules
-- Test : RTL, Jest
+- Test : RTL, Jest(Integration), Cypress(E2E)
 - Sub Tools : Html, Dictionary API, Youglish API, Grammarly API, FireBase, PhotoShop
 - Idea or Not : Idea 85%, Clone 15% (refer to Vocabulary part)
 - Bundler : Webpack
@@ -35,7 +35,7 @@
 - Date of debugging : Oct 27th ~ Oct 30th 2022 (clean code, fix error, custom hook, comment)
 - Date of 1st upload : Oct 31th 2022
 - Date of deployment : Nov 22th 2022
-- Date of adding RTL, Jest : Mar 14th 2023 ~ on going
+- Date of adding Testing library : Mar 14th 2023 ~ Mar 17th 2023
 - Deployment Tool : Netlify
 
 # Functions
