@@ -53,6 +53,7 @@ export default function Word({ word, togleKor, togleEng }) {
         <>
           <tr
             className={!isDone ? "bg-gray-200 text-gray-600" : styles.rowDone}
+            id={`${word.eng}_tr`}
           >
             {/* Isdone */}
             <td className="py-3 px-1 text-left whitespace-nowrap">
@@ -60,6 +61,7 @@ export default function Word({ word, togleKor, togleEng }) {
                 <div className="mr-2">
                   <input
                     type="checkbox"
+                    aria-label={`${word.eng}_isDone`}
                     className="accent-pink-500"
                     onChange={togleIsdone}
                     checked={isDone}

@@ -146,6 +146,7 @@ export default function Create({ userObj, showCreate }) {
                 <button
                   type="submit"
                   className="py-2 px-4 bg-indigo-500 hover:bg-indigo-700 focus:ring-indigo-500 focus:ring-offset-indigo-200 text-white w-full transition ease-in duration-200 text-center text-base font-semibold shadow-md focus:outline-none focus:ring-2 focus:ring-offset-2  rounded-lg "
+                  data-testid="createBtn"
                 >
                   Create
                 </button>
