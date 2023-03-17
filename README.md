@@ -41,7 +41,7 @@
 # Functions
 
 - Responsive Website
-- Test Code (Jest, RTL) (still on going)
+- Test Code (Jest, Cypress, RTL)
 - Login, Logout, Signup
 - Login with Google, GitHub, FaceBook (Oauth)
 - Navigation bar and Modal(Small Navigation bar)
