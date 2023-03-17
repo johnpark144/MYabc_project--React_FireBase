@@ -1,5 +1,5 @@
 /* eslint-disable cypress/no-unnecessary-waiting */
-describe("My E2E Test", () => {
+describe("E2E Test", () => {
   it("Create and Delete both a Day and word from Memorize and video", () => {
     // Login
     cy.viewport(1500, 880);
