@@ -21,7 +21,6 @@
   and put them into practice. and I will also create this in app when I learn React Native later on.
   
 - Hard Part and Solution :
-
 1. because of limit to call API a day, I used to fail to test after some time to test. so I've learn how to test effeciently
 2. implementing Modal to do "delete or cancel", whenever I click "delete", sadly only last data had been deleted.. but I found solution that I put the Modal-making-component inside of the map-function that spread array. so now that I click to set the Modal, the Modal of that data to delete comes out.
 3. I Learned Jest and React Testing Library so called 'RTL' right after I built the portfolio website in another repository. and I added test code in this project. but I faced the difficulty to place Jest test code for React-router-dom and firebase, so I decided to add Cypress for E2E test. thankfully all the test code for important fuction passed the tests, I think I need to improve skills more on Jest,RTL,Cypress"
