@@ -25,7 +25,7 @@ export default function Day({ userObj, btnClass }) {
       // 2.
       setDays(dayArr.filter((day) => day.creatorId === userObj.uid));
     }
-  }, [wordArr, dayArr, day]);
+  }, [wordArr, dayArr, day, userObj.uid]);
 
   // To hide the words you memorized
   const [togleKor, setTogleKor] = useState(true);
