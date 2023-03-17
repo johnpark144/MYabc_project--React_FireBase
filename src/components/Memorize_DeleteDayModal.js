@@ -73,6 +73,7 @@ export default function DeleteDayModal({ userObj, setDeleteDayMode }) {
                 <button
                   onClick={_delete}
                   type="button"
+                  data-testid="deleteBtn"
                   className="py-2 px-4 bg-indigo-500 hover:bg-indigo-700 focus:ring-indigo-500 
                             focus:ring-offset-indigo-200 text-white w-full transition ease-in duration-200 
                             text-center text-base font-semibold shadow-md focus:outline-none focus:ring-2 
