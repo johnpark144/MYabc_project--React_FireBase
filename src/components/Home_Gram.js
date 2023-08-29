@@ -20,7 +20,7 @@ export default function Gram({ scrollYValue, buttonJump }) {
                 <button
                   className={`${
                     styles.create
-                  } absolute top-12 right-4 bg-gradient-to-r from-green-800 
+                  } absolute top-10 right-6 bg-gradient-to-r from-green-800 
                             to-green-700 transition shadow-xl ease-in-out delay-70
                              hover:-translate-y-2 duration-300 ${
                                buttonJump && '-translate-y-3'

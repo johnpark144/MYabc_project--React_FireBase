@@ -1,11 +1,17 @@
 .grammar {
     font: inherit;
     line-height: 1.5;
-    width: 70%;
+    width: 70vw;
     padding: 8px 12px;
     overflow: auto;
 }
 
 #grammarContainer {
     text-align: center;
+}
+
+@media screen and (max-width: 560px) {
+    .grammar {
+        width: 90vw;
+    }
 }
