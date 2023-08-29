@@ -16,6 +16,11 @@
     clip: rect(0px, 10000px, 100px, 0px);
 }
 
+#navbar>div:nth-child(1) {
+    display: flex;
+    align-items: center;
+}
+
 #navbarHidden {
     width: 80%;
     height: 80px;
@@ -27,9 +32,13 @@
     clip: rect(10px, 75px, 75px, 10px);
 }
 
+#navbarHidden>div:nth-child(1) {
+    display: flex;
+    align-items: center;
+}
 
 #myabc {
-    margin: 10px 0 0 20px;
+    margin: 5px 0 0 20px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     color: #2b2929;
     font-size: 30px;
@@ -63,8 +72,7 @@
 }
 
 #menuIcon {
-    margin-top: 14px;
-    margin-left: 60%;
+    margin-top: -8px;
 }
 
 #nameLogout {
@@ -87,13 +95,31 @@
     .menus {
         display: none;
     }
+
+    #navbar>div:nth-child(1) {
+        display: flex;
+        justify-content: space-between;
+        padding-right: 20px;
+    }
+
+    #navbarHidden>div:nth-child(1) {
+        display: flex;
+        justify-content: space-between;
+        padding-right: 20px;
+    }
 }
 
 @media screen and (min-width: 1078px) {
     #menuIcon {
         display: none;
     }
+}
 
+@media screen and (max-width: 768px) {
+    #navbar {
+        width: 100%;
+        margin-left: 0%;
+    }
 }
 
 /* ########################################## NavModal ################################################*/
