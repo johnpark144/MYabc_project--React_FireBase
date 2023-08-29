@@ -1,5 +1,5 @@
-import { Link } from "react-router-dom";
-import styles from "../routes/Home.module.css";
+import { Link } from 'react-router-dom';
+import styles from '../routes/Home.module.css';
 
 export default function Gram({ scrollYValue, buttonJump }) {
   return (
@@ -16,12 +16,14 @@ export default function Gram({ scrollYValue, buttonJump }) {
           >
             <div className={styles.titleAndBtn}>
               <h1>GRAMMARLY</h1>
-              <Link to="/grammarlyapp">
+              <Link to='/grammarlyapp'>
                 <button
-                  className={`${styles.create} bg-gradient-to-r from-green-800 
-                            to-green-700 transition shadow-xl ease-in-out delay-70 bg-red-400
+                  className={`${
+                    styles.create
+                  } absolute top-12 right-4 bg-gradient-to-r from-green-800 
+                            to-green-700 transition shadow-xl ease-in-out delay-70
                              hover:-translate-y-2 duration-300 ${
-                               buttonJump && "-translate-y-3"
+                               buttonJump && '-translate-y-3'
                              }`}
                 >
                   GO
@@ -51,9 +53,9 @@ export default function Gram({ scrollYValue, buttonJump }) {
             }
           >
             <img
-              alt="grammer_Ex"
-              style={{ width: "320px", height: "195px", borderRadius: "10px" }}
-              src="https://user-images.githubusercontent.com/106279616/217297935-5429f47a-cb82-4676-b6d0-99f9e7240a5f.jpg"
+              alt='grammer_Ex'
+              style={{ width: '320px', height: '195px', borderRadius: '10px' }}
+              src='https://user-images.githubusercontent.com/106279616/217297935-5429f47a-cb82-4676-b6d0-99f9e7240a5f.jpg'
             />
           </div>
         </div>

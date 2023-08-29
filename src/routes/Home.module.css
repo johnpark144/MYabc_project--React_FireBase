@@ -11,6 +11,7 @@
     #contents {
         display: flex;
         flex-direction: column-reverse;
+        align-items: center;
     }
 
     #abcLogo {
@@ -118,7 +119,7 @@
 .dictionaryDisplay {
     position: absolute;
     top: 80px;
-    left: 7%;
+    left: calc(10% - 30px);
     font-family: sans-serif;
     transition: all 1s 200ms ease-in-out;
     opacity: 1;
@@ -128,7 +129,7 @@
 .dictionaryHidden {
     position: absolute;
     top: 80px;
-    left: 7%;
+    left: calc(10% - 30px);
     font-family: sans-serif;
     transition: all 400ms 200ms ease-in-out;
     opacity: 0;
@@ -318,6 +319,19 @@
     .slide {
         right: 0;
     }
+
+    .slide > div:nth-child(1) {
+        position: relative;
+        left: 30px;
+        z-index: 100;
+    }
+
+    .slide > div:nth-child(3) {
+        position: relative;
+        right: 50px;
+        z-index: 100;
+    }
+
 
     .screenImg {
         right: 0;
@@ -560,14 +574,14 @@
 @media screen and (max-width: 768px) {
     .grammarlyDisplay1 {
         height: 230px;
-        width: 380px;
+        width: 350px;
         left: calc(10% - 40px);
         padding-top: 20px;
     }
 
     .grammarlyHidden1 {
         height: 230px;
-        width: 380px;
+        width: 350px;
         padding-top: 20px;
     }
 
