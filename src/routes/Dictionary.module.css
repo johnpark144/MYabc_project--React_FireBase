@@ -1,3 +1,7 @@
+#search {
+    text-align: center;
+}
+
 #searchBtn {
     border-radius: 5px;
     font-size: 14px;
@@ -9,7 +13,7 @@
 
 #searchBar {
     height: 30px;
-    width: 250px;
+    width: 445px;
     margin-right: 10px;
     margin: 25px;
     outline: none;
@@ -18,10 +22,6 @@
 #searchIcon {
     font-size: 20px;
     padding: 2px;
-}
-
-#search {
-    text-align: center;
 }
 
 #wordAudio {
@@ -41,4 +41,10 @@
     margin: 5px;
     overflow: auto;
     padding: 20px;
+}
+
+@media screen and (max-width: 768px) {
+    #searchBar {
+        width: calc(68% - 40px);
+    }
 }
