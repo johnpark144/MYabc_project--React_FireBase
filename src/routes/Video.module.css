@@ -53,11 +53,19 @@
 @media screen and (max-width: 560px) {
     #video {
         min-width: 400px;
-        width: 100%;
     }
 
     #video2 {
-        width: 100%;
         min-width: 400px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    #video {
+        min-width: 340px;
+    }
+
+    #video2 {
+        min-width: 340px;
     }
 }
