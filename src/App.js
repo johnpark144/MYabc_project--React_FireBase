@@ -1,18 +1,18 @@
-import { useEffect, useState } from "react";
-import { BrowserRouter, Route, Routes } from "react-router-dom";
-import { onAuthStateChanged } from "firebase/auth"; // npm i firebase (To install)
-import { authService } from "./fBase";
-import Auth from "./routes/Auth";
-import EmptyPage from "./routes/_EmptyPage";
-import Home from "./routes/Home";
-import Memorize from "./routes/Memorize";
-import Dictionary from "./routes/Dictionary";
-import Video from "./routes/Video";
-import GrammarlyApp from "./routes/GrammarlyApp";
-import Day from "./routes/Day";
-import Create from "./routes/Create";
-import NavModal from "./components/NavBar_NavModal/NavModal";
-import NavBar from "./components/NavBar_NavModal/NavBar";
+import { useEffect, useState } from 'react';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import { onAuthStateChanged } from 'firebase/auth'; // npm i firebase (To install)
+import { authService } from './fBase';
+import Auth from './routes/Auth';
+import EmptyPage from './routes/_EmptyPage';
+import Home from './routes/Home';
+import Memorize from './routes/Memorize';
+import Dictionary from './routes/Dictionary';
+import Video from './routes/Video';
+import Grammar from './routes/Grammar';
+import Day from './routes/Day';
+import Create from './routes/Create';
+import NavModal from './components/NavBar_NavModal/NavModal';
+import NavBar from './components/NavBar_NavModal/NavBar';
 
 function App() {
   const [navModal, setNavModal] = useState(false); // Navigaion Modal
@@ -42,47 +42,44 @@ function App() {
 
   return (
     <BrowserRouter>
-      {navModal && <NavModal setNavModal={setNavModal} />}{" "}
+      {navModal && <NavModal setNavModal={setNavModal} />}{' '}
       {/* NavModal function everywhere, Only When navModal is on */}
       {isLoggedIn && <NavBar setNavModal={setNavModal} userObj={userObj} />}
       {/* Navbar is always used, while logged in*/}
-      <div id="container">
+      <div id='container'>
         <Routes>
           {isLoggedIn ? ( // Routes while logged in
             <>
-              <Route exact path="/" element={<Home userObj={userObj} />} />
+              <Route exact path='/' element={<Home userObj={userObj} />} />
               <Route
-                path="/memorize"
+                path='/memorize'
                 element={<Memorize userObj={userObj} btnClass={btnClass} />}
               />
               <Route
-                path="/memorize/create"
+                path='/memorize/create'
                 element={<Create userObj={userObj} />}
               />
               <Route
-                path="/memorize/:day"
+                path='/memorize/:day'
                 element={<Day userObj={userObj} btnClass={btnClass} />}
               />
               <Route
-                path="/dictionary"
+                path='/dictionary'
                 element={<Dictionary userObj={userObj} btnClass={btnClass} />}
               />
               <Route
-                path="/video"
+                path='/video'
                 element={<Video userObj={userObj} btnClass={btnClass} />}
               />
-              <Route
-                path="/grammarlyapp"
-                element={<GrammarlyApp userObj={userObj} />}
-              />
+              <Route path='/grammar' element={<Grammar userObj={userObj} />} />
 
               {/* 404, unmatched with any routes (always very bottom)*/}
-              <Route path="*" element={<EmptyPage btnClass={btnClass} />} />
+              <Route path='*' element={<EmptyPage btnClass={btnClass} />} />
             </>
           ) : (
             // Auth page while unlogged in
             <>
-              <Route path="/" element={<Auth />} />
+              <Route path='/' element={<Auth />} />
             </>
           )}
         </Routes>

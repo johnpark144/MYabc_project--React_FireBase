@@ -4,19 +4,19 @@ import styles from '../routes/Home.module.css';
 export default function Gram({ scrollYValue, buttonJump }) {
   return (
     <>
-      <div className={styles.grammarlyContents}>
+      <div className={styles.grammarContents}>
         <div>
-          {/* 1st Box : Title Grammarly, Explanation */}
+          {/* 1st Box : Title Grammar, Explanation */}
           <div
             className={
               scrollYValue > 2900
-                ? styles.grammarlyDisplay1
-                : styles.grammarlyHidden1
+                ? styles.grammarDisplay1
+                : styles.grammarHidden1
             }
           >
             <div className={styles.titleAndBtn}>
-              <h1>GRAMMARLY</h1>
-              <Link to='/grammarlyapp'>
+              <h1>GRAMMAR</h1>
+              <Link to='/grammar'>
                 <button
                   className={`${
                     styles.create
@@ -37,8 +37,8 @@ export default function Gram({ scrollYValue, buttonJump }) {
           <div
             className={
               scrollYValue > 2900
-                ? styles.grammarlyDisplay2
-                : styles.grammarlyHidden2
+                ? styles.grammarDisplay2
+                : styles.grammarHidden2
             }
           >
             <h2>This will let you know</h2>
@@ -48,8 +48,8 @@ export default function Gram({ scrollYValue, buttonJump }) {
           <div
             className={
               scrollYValue > 2900
-                ? styles.grammarlyDisplay3
-                : styles.grammarlyHidden3
+                ? styles.grammarDisplay3
+                : styles.grammarHidden3
             }
           >
             <img

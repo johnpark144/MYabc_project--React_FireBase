@@ -461,7 +461,7 @@
 
 /* ####################################### Home_Gram ##########################################*/
 
-.grammarlyContents {
+.grammarContents {
     background: url("https://user-images.githubusercontent.com/106279616/217299012-346c8840-4323-46f9-a2b4-eac65926f074.jpg");
     background-size: 100% 800px;
     background-repeat: no-repeat;
@@ -473,7 +473,7 @@
     z-index: 8;
 }
 
-.grammarlyDisplay1 {
+.grammarDisplay1 {
     background: linear-gradient(45deg, #3c774e, #06491a);
     border-radius: 20px;
     padding: 3px 27px;
@@ -489,7 +489,7 @@
     transition: all 1500ms 700ms cubic-bezier(.69, .51, .87, 1.19);
 }
 
-.grammarlyHidden1 {
+.grammarHidden1 {
     background: linear-gradient(45deg, #3c774e, #06491a);
     border-radius: 20px;
     padding: 3px 27px;
@@ -505,7 +505,7 @@
     transition: all 2s 100ms cubic-bezier(.68, -0.30, .5, 1.15);
 }
 
-.grammarlyDisplay2 {
+.grammarDisplay2 {
     background: linear-gradient(45deg, #3c774e, #06491a);
     border-radius: 20px;
     padding: 37px;
@@ -522,7 +522,7 @@
     transition: all 1500ms 400ms cubic-bezier(.69, .51, .61, 1.16);
 }
 
-.grammarlyHidden2 {
+.grammarHidden2 {
     background: linear-gradient(45deg, #3c774e, #06491a);
     border-radius: 20px;
     padding: 37px;
@@ -539,7 +539,7 @@
     transition: all 2s 100ms cubic-bezier(.68, -0.30, .5, 1.15);
 }
 
-.grammarlyDisplay3 {
+.grammarDisplay3 {
     background: linear-gradient(45deg, #3c774e, #06491a);
     border-radius: 20px;
     padding: 18px;
@@ -555,7 +555,7 @@
     transition: all 1500ms 100ms cubic-bezier(.69, .51, .68, 1.35);
 }
 
-.grammarlyHidden3 {
+.grammarHidden3 {
     background: linear-gradient(45deg, #3c774e, #06491a);
     border-radius: 20px;
     padding: 18px;
@@ -572,36 +572,36 @@
 }
 
 @media screen and (max-width: 768px) {
-    .grammarlyDisplay1 {
+    .grammarDisplay1 {
         height: 230px;
         width: 350px;
         left: calc(10% - 40px);
         padding-top: 20px;
     }
 
-    .grammarlyHidden1 {
+    .grammarHidden1 {
         height: 230px;
         width: 350px;
         padding-top: 20px;
     }
 
-    .grammarlyDisplay2 {
+    .grammarDisplay2 {
         height: 230px;
         width: 330px;
         left: calc(50% - 40px);
     }
 
-    .grammarlyHidden2 {
+    .grammarHidden2 {
         height: 230px;
         width: 330px;
     }
 
-    .grammarlyDisplay3 {
+    .grammarDisplay3 {
         height: 230px;
         width: 280px;
     }
 
-    .grammarlyHidden3 {
+    .grammarHidden3 {
         height: 230px;
         width: 280px;
     }

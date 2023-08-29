@@ -66,9 +66,9 @@ export default function NavBar({ setNavModal, userObj }) {
             <span role='link'>Video</span>
           </Link>
           <span>|&nbsp;</span>
-          <Link to='/grammarlyapp' className={styles.menu}>
+          <Link to='/grammar' className={styles.menu}>
             <span className='material-icons-outlined'>sticky_note_2</span>
-            <span role='link'>Grammarly</span>
+            <span role='link'>Grammar</span>
           </Link>
           {/* UserName, Logout button */}
           <div id={styles.nameLogout}>
