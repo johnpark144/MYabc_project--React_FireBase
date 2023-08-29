@@ -1,5 +1,5 @@
-import { useState } from "react";
-import { authService } from "../fBase";
+import { useState } from 'react';
+import { authService } from '../fBase';
 import {
   signInWithEmailAndPassword,
   createUserWithEmailAndPassword,
@@ -7,13 +7,13 @@ import {
   GoogleAuthProvider,
   GithubAuthProvider,
   FacebookAuthProvider,
-} from "firebase/auth";
-import styles from "./Auth.module.css";
+} from 'firebase/auth';
+import styles from './Auth.module.css';
 
 export default function Auth() {
-  const [email, setEmail] = useState(""); // Realtime email input
-  const [password, setPassword] = useState(""); // Realtime password input
-  const [error, setError] = useState("");
+  const [email, setEmail] = useState(''); // Realtime email input
+  const [password, setPassword] = useState(''); // Realtime password input
+  const [error, setError] = useState('');
 
   // Login mode or Create-account mode
   const [newAccount, setNewAccount] = useState(false);
@@ -24,9 +24,9 @@ export default function Auth() {
     const {
       target: { name, value },
     } = e;
-    if (name === "email") {
+    if (name === 'email') {
       setEmail(value);
-    } else if (name === "password") {
+    } else if (name === 'password') {
       setPassword(value);
     }
   };
@@ -54,11 +54,11 @@ export default function Auth() {
     } = e;
     let provider;
     try {
-      if (name === "google") {
+      if (name === 'google') {
         provider = new GoogleAuthProvider();
-      } else if (name === "github") {
+      } else if (name === 'github') {
         provider = new GithubAuthProvider();
-      } else if (name === "facebook") {
+      } else if (name === 'facebook') {
         provider = new FacebookAuthProvider();
       }
       await signInWithPopup(authService, provider);
@@ -69,14 +69,14 @@ export default function Auth() {
 
   return (
     <div className={styles.container}>
-      <div id={styles.authContainer} className="shadow-xl" onSubmit={onSubmit}>
+      <div id={styles.authContainer} className='shadow-xl' onSubmit={onSubmit}>
         {/* MYabc Logo and letter */}
         <div className={styles.myabcContainer}>
           <img
-            width="60px"
-            alt="ABC_LOGO"
+            width='60px'
+            alt='ABC_LOGO'
             src={
-              "https://user-images.githubusercontent.com/106279616/217299245-76306248-6c80-4bf8-a1f0-ccb962648a8f.png"
+              'https://user-images.githubusercontent.com/106279616/217299245-76306248-6c80-4bf8-a1f0-ccb962648a8f.png'
             }
           />
           <span className={styles.myabc}>MYabc</span>
@@ -88,74 +88,72 @@ export default function Auth() {
             onChange={onChange}
             required
             value={email}
-            name="email"
-            type="text"
-            placeholder="Email"
+            name='email'
+            type='text'
+            placeholder='Email'
           />
           <input
             className={styles.emailPassword}
             onChange={onChange}
             required
             value={password}
-            name="password"
-            type="password"
-            placeholder="Password"
+            name='password'
+            type='password'
+            placeholder='Password'
           />
           <input
             id={styles.submitBtn}
-            className="shadow-md"
-            type="submit"
-            value={newAccount ? "Create Account" : "Sign in"}
+            className='shadow-md'
+            type='submit'
+            value={newAccount ? 'Create Account' : 'Sign in'}
           />
           <span id={styles.error}>{error.slice(10, -1)}</span>
         </form>
         <div
           id={styles.toggleAccount}
-          className="shadow-md"
+          className='shadow-md'
           onClick={toggleAccount}
         >
-          {newAccount ? "Sign in" : "Create Account"}
+          {newAccount ? 'Sign in' : 'Create Account'}
         </div>
         {/* Hr tag and Or */}
         <div id={styles.hr_or_hr}>
-          <hr style={{ width: "168px" }} />
+          <hr />
           <span id={styles.or}>or</span>
-          <hr style={{ width: "168px" }} />
+          <hr />
         </div>
         {/* Google, gitHub, FaceBook */}
-        <div>
-          <div className={styles.snsAuth}>
-            <button
-              onClick={onSocialClick}
-              name="google"
-              id={styles.googleAuthBtn}
-              className="shadow-md"
-            >
-              <i className="fa fa-google" style={{ marginRight: "10px" }} />
-              Continue with Google
-            </button>
-            <button
-              onClick={onSocialClick}
-              name="github"
-              id={styles.githubAuthBtn}
-              className="shadow-md"
-            >
-              <i className="fa fa-github" style={{ marginRight: "10px" }} />
-              Continue with Github
-            </button>
-            <button
-              onClick={onSocialClick}
-              name="facebook"
-              id={styles.facebookAuthBtn}
-              className="shadow-md"
-            >
-              <i
-                className="fa fa-facebook-official"
-                style={{ marginRight: "10px" }}
-              />
-              Continue with Facebook
-            </button>
-          </div>
+        <div className={styles.snsAuth}>
+          <button
+            onClick={onSocialClick}
+            name='google'
+            id={styles.googleAuthBtn}
+            className='shadow-md'
+          >
+            <i className='fa fa-google' style={{ marginRight: '10px' }} />
+            Continue with Google
+          </button>
+          <button
+            onClick={onSocialClick}
+            name='github'
+            id={styles.githubAuthBtn}
+            className='shadow-md'
+          >
+            <i className='fa fa-github' style={{ marginRight: '10px' }} />
+            Continue with Github
+          </button>
+          <button
+            onClick={onSocialClick}
+            name='facebook'
+            id={styles.facebookAuthBtn}
+            className='shadow-md'
+          >
+            <i
+              className='fa fa-facebook-official'
+              style={{ marginRight: '10px' }}
+            />
+            Continue with Facebook
+          </button>
         </div>
       </div>
     </div>

@@ -53,6 +53,7 @@
 }
 
 .loginSignup {
+    width: 380px;
     font-size: 18px;
     margin-top: 40px;
 }
@@ -76,6 +77,10 @@
     display: flex;
 }
 
+#hr_or_hr > hr {
+    width: 168px;
+}
+
 #or {
     color: gray;
     margin: -10px 10px 0 10px;
@@ -83,6 +88,7 @@
 
 .snsAuth {
     margin-top: 20px;
+    width: 380px;
 }
 
 #googleAuthBtn {
@@ -111,4 +117,22 @@
 
 #error {
     color: red;
+}
+
+@media screen and (max-width: 610px) {
+    .myabcContainer {
+        margin-left: calc(-40% - 50px);
+    }
+    .loginSignup {
+        width: 70vw;
+    }
+
+    .snsAuth {
+        width: 70vw;
+    }
+
+    #hr_or_hr > hr {
+        width: 32vw;
+    }
+
 }
