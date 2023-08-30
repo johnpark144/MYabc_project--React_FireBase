@@ -1,6 +1,6 @@
 # MYabc_project--React_fireBase
 
-- 웹사이트 링크 : https://resilient-hummingbird-f7421f.netlify.app/
+- 웹사이트 링크 : https://my-abc.netlify.app/
 - 백엔드 (파이어베이스 for me) : https://console.firebase.google.com/project/myabc-97f03/overview?hl=ko
 
 - 만든이 : 박영환(John Park)
