@@ -1,7 +1,7 @@
 ---------- <a href="README_KOR.md">한글로 보기(KOR)</a> ----------
 # MYabc_project--React_fireBase
 
-- Website Link : my-abc.netlify.app/
+- Website Link : https://my-abc.netlify.app/
 - Backend (firebase for me) : https://console.firebase.google.com/project/myabc-97f03/overview?hl=ko
 
 - Creater : Yeonghwan Park (John Park)
