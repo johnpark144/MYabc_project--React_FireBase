@@ -1,7 +1,7 @@
 ---------- <a href="README_KOR.md">한글로 보기(KOR)</a> ----------
 # MYabc_project--React_fireBase
 
-- Website Link : https://resilient-hummingbird-f7421f.netlify.app/
+- Website Link : https://my-abc.netlify.app/
 - Backend (firebase for me) : https://console.firebase.google.com/project/myabc-97f03/overview?hl=ko
 
 - Creater : Yeonghwan Park (John Park)
@@ -14,12 +14,7 @@
 - Explantion :
   This is English study website named 'MYabc' that I built to use usefully for those who need it including myself.
 - Reason of creation :
-  When I came to states for the first time, I found it hard to do everything due to language barrier.
-  I remember how my English get improved going through many trials and errors, that is studying context of frequent word and sentences,
-  and also checking meaning of words in English was helpfull a lot to feel the true meaning,
-  that's why I used to use Eng/Eng Dictionary and Youglish site in bookmark in actuality.
-  retrospecting that time, I came to think that would be good to develop the website or application for English study based on my experience.
-  and put them into practice. and I will also create this in app when I learn React Native later on.
+  When I came to the States for the first time, I found it hard to do everything due to the language barrier. I remember how my English get improved by going through many trials and errors, that is studying the context of frequent words and sentences, and also checking the meaning of words in English was helpful a lot to feel the true meaning, that's why I used to use Eng/Eng Dictionary and Youglish site in bookmark in actuality. Returning that time, I came to think that would be good to develop a website or application for English study based on my experience. and put them into practice. and I also created this in the app after I learned React Native.
   
 - Hard Part and Solution :
 1. because of limit to call API a day, I used to fail to test after some time to test. so I've learn how to test effeciently
